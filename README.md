@@ -21,4 +21,4 @@ To implement our model, a number of decisions were made and tested, including de
 
 Should our model have some error, it is important that it produces random rather than systematic error. Specifically, we want to avoid creating a model which might consistently predict early delivery dates, which could lead to sellers and delivery services rushing packages and resulting in the employment of more non-sustainable methods, such as shipping half-full boxes, as well as increasing the pressure on employees to have to work faster and faster.
 
-Using a loss function of the weighted average absolute error of the delivery predictions in days that was provided by eBay, our model achieved a loss of 0.411 where a loss of 0.759 was the baseline of random guessing.
+
